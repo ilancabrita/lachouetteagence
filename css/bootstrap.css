@@ -6,13 +6,15 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-html {
+html 
+{
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
 
-body {
+body 
+{
     margin: 0
 }
 
@@ -28,107 +30,128 @@ main,
 menu,
 nav,
 section,
-summary {
+summary 
+{
     display: block
 }
 
 audio,
 canvas,
 progress,
-video {
+video 
+{
     display: inline-block;
     vertical-align: baseline
 }
 
-audio:not([controls]) {
+audio:not([controls]) 
+{
     display: none;
     height: 0
 }
 
 [hidden],
-template {
+template 
+{
     display: none
 }
 
-a {
+a 
+{
     background-color: transparent
 }
 
 a:active,
-a:hover {
+a:hover 
+{
     outline: 0
 }
 
-abbr[title] {
+abbr[title] 
+{
     border-bottom: 1px dotted
 }
 
 b,
-strong {
+strong 
+{
     font-weight: 700
 }
 
-dfn {
+dfn 
+{
     font-style: italic
 }
 
-h1 {
+h1 
+{
     margin: .67em 0;
     font-size: 2em
 }
 
-mark {
+mark 
+{
     color: #000;
     background: #ff0
 }
 
-small {
+small 
+{
     font-size: 80%
 }
 
 sub,
-sup {
+sup 
+{
     position: relative;
     font-size: 75%;
     line-height: 0;
     vertical-align: baseline
 }
 
-sup {
+sup 
+{
     top: -.5em
 }
 
-sub {
+sub 
+{
     bottom: -.25em
 }
 
-img {
+img 
+{
     border: 0
 }
 
-svg:not(:root) {
+svg:not(:root) 
+{
     overflow: hidden
 }
 
-figure {
+figure 
+{
     margin: 1em 40px
 }
 
-hr {
+hr 
+{
     height: 0;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box
 }
 
-pre {
+pre 
+{
     overflow: auto
 }
 
 code,
 kbd,
 pre,
-samp {
+samp 
+{
     font-family: monospace, monospace;
     font-size: 1em
 }
@@ -137,46 +160,54 @@ button,
 input,
 optgroup,
 select,
-textarea {
+textarea 
+{
     margin: 0;
     font: inherit;
     color: inherit
 }
 
-button {
+button 
+{
     overflow: visible
 }
 
 button,
-select {
+select 
+{
     text-transform: none
 }
 
 button,
 html input[type=button],
 input[type=reset],
-input[type=submit] {
+input[type=submit] 
+{
     -webkit-appearance: button;
     cursor: pointer
 }
 
 button[disabled],
-html input[disabled] {
+html input[disabled] 
+{
     cursor: default
 }
 
 button::-moz-focus-inner,
-input::-moz-focus-inner {
+input::-moz-focus-inner 
+{
     padding: 0;
     border: 0
 }
 
-input {
+input 
+{
     line-height: normal
 }
 
 input[type=checkbox],
-input[type=radio] {
+input[type=radio] 
+{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -184,11 +215,13 @@ input[type=radio] {
 }
 
 input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type=number]::-webkit-outer-spin-button 
+{
     height: auto
 }
 
-input[type=search] {
+input[type=search] 
+{
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -196,45 +229,54 @@ input[type=search] {
 }
 
 input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration {
+input[type=search]::-webkit-search-decoration 
+{
     -webkit-appearance: none
 }
 
-fieldset {
+fieldset 
+{
     padding: .35em .625em .75em;
     margin: 0 2px;
     border: 1px solid silver
 }
 
-legend {
+legend 
+{
     padding: 0;
     border: 0
 }
 
-textarea {
+textarea 
+{
     overflow: auto
 }
 
-optgroup {
+optgroup 
+{
     font-weight: 700
 }
 
-table {
+table 
+{
     border-spacing: 0;
     border-collapse: collapse
 }
 
 td,
-th {
+th 
+{
     padding: 0
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
-@media print {
+@media print 
+{
     *,
     :after,
-    :before {
+    :before 
+    {
         color: #000 !important;
         text-shadow: none !important;
         background: 0 0 !important;
@@ -242,74 +284,92 @@ th {
         box-shadow: none !important
     }
     a,
-    a:visited {
+    a:visited 
+    {
         text-decoration: underline
     }
-    a[href]:after {
+    a[href]:after 
+    {
         content: " (" attr(href) ")"
     }
-    abbr[title]:after {
+    abbr[title]:after 
+    {
         content: " (" attr(title) ")"
     }
     a[href^="javascript:"]:after,
-    a[href^="#"]:after {
+    a[href^="#"]:after 
+    {
         content: ""
     }
     blockquote,
-    pre {
+    pre 
+    {
         border: 1px solid #999;
         page-break-inside: avoid
     }
-    thead {
+    thead 
+    {
         display: table-header-group
     }
     img,
-    tr {
+    tr 
+    {
         page-break-inside: avoid
     }
-    img {
+    img 
+    {
         max-width: 100% !important
     }
     h2,
     h3,
-    p {
+    p 
+    {
         orphans: 3;
         widows: 3
     }
     h2,
-    h3 {
+    h3 
+    {
         page-break-after: avoid
     }
-    .navbar {
+    .navbar 
+    {
         display: none
     }
     .btn>.caret,
-    .dropup>.btn>.caret {
+    .dropup>.btn>.caret 
+    {
         border-top-color: #000 !important
     }
-    .label {
+    .label 
+    {
         border: 1px solid #000
     }
-    .table {
+    .table 
+    {
         border-collapse: collapse !important
     }
     .table td,
-    .table th {
+    .table th 
+    {
         background-color: #fff !important
     }
     .table-bordered td,
-    .table-bordered th {
+    .table-bordered th 
+    {
         border: 1px solid #ddd !important
     }
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
-.glyphicon {
+.glyphicon 
+{
     position: relative;
     top: 1px;
     display: inline-block;
@@ -321,604 +381,754 @@ th {
     -moz-osx-font-smoothing: grayscale
 }
 
-.glyphicon-asterisk:before {
+.glyphicon-asterisk:before 
+{
     content: "\2a"
 }
 
-.glyphicon-plus:before {
+.glyphicon-plus:before 
+{
     content: "\2b"
 }
 
 .glyphicon-eur:before,
-.glyphicon-euro:before {
+.glyphicon-euro:before 
+{
     content: "\20ac"
 }
 
-.glyphicon-minus:before {
+.glyphicon-minus:before 
+{
     content: "\2212"
 }
 
-.glyphicon-cloud:before {
+.glyphicon-cloud:before 
+{
     content: "\2601"
 }
 
-.glyphicon-envelope:before {
+.glyphicon-envelope:before 
+{
     content: "\2709"
 }
 
-.glyphicon-pencil:before {
+.glyphicon-pencil:before 
+{
     content: "\270f"
 }
 
-.glyphicon-glass:before {
+.glyphicon-glass:before 
+{
     content: "\e001"
 }
 
-.glyphicon-music:before {
+.glyphicon-music:before 
+{
     content: "\e002"
 }
 
-.glyphicon-search:before {
+.glyphicon-search:before 
+{
     content: "\e003"
 }
 
-.glyphicon-heart:before {
+.glyphicon-heart:before 
+{
     content: "\e005"
 }
 
-.glyphicon-star:before {
+.glyphicon-star:before 
+{
     content: "\e006"
 }
 
-.glyphicon-star-empty:before {
+.glyphicon-star-empty:before 
+{
     content: "\e007"
 }
 
-.glyphicon-user:before {
+.glyphicon-user:before 
+{
     content: "\e008"
 }
 
-.glyphicon-film:before {
+.glyphicon-film:before 
+{
     content: "\e009"
 }
 
-.glyphicon-th-large:before {
+.glyphicon-th-large:before 
+{
     content: "\e010"
 }
 
-.glyphicon-th:before {
+.glyphicon-th:before 
+{
     content: "\e011"
 }
 
-.glyphicon-th-list:before {
+.glyphicon-th-list:before 
+{
     content: "\e012"
 }
 
-.glyphicon-ok:before {
+.glyphicon-ok:before 
+{
     content: "\e013"
 }
 
-.glyphicon-remove:before {
+.glyphicon-remove:before 
+{
     content: "\e014"
 }
 
-.glyphicon-zoom-in:before {
+.glyphicon-zoom-in:before 
+{
     content: "\e015"
 }
 
-.glyphicon-zoom-out:before {
+.glyphicon-zoom-out:before 
+{
     content: "\e016"
 }
 
-.glyphicon-off:before {
+.glyphicon-off:before 
+{
     content: "\e017"
 }
 
-.glyphicon-signal:before {
+.glyphicon-signal:before 
+{
     content: "\e018"
 }
 
-.glyphicon-cog:before {
+.glyphicon-cog:before 
+{
     content: "\e019"
 }
 
-.glyphicon-trash:before {
+.glyphicon-trash:before 
+{
     content: "\e020"
 }
 
-.glyphicon-home:before {
+.glyphicon-home:before 
+{
     content: "\e021"
 }
 
-.glyphicon-file:before {
+.glyphicon-file:before 
+{
     content: "\e022"
 }
 
-.glyphicon-time:before {
+.glyphicon-time:before 
+{
     content: "\e023"
 }
 
-.glyphicon-road:before {
+.glyphicon-road:before 
+{
     content: "\e024"
 }
 
-.glyphicon-download-alt:before {
+.glyphicon-download-alt:before 
+{
     content: "\e025"
 }
 
-.glyphicon-download:before {
+.glyphicon-download:before 
+{
     content: "\e026"
 }
 
-.glyphicon-upload:before {
+.glyphicon-upload:before 
+{
     content: "\e027"
 }
 
-.glyphicon-inbox:before {
+.glyphicon-inbox:before 
+{
     content: "\e028"
 }
 
-.glyphicon-play-circle:before {
+.glyphicon-play-circle:before 
+{
     content: "\e029"
 }
 
-.glyphicon-repeat:before {
+.glyphicon-repeat:before 
+{
     content: "\e030"
 }
 
-.glyphicon-refresh:before {
+.glyphicon-refresh:before 
+{
     content: "\e031"
 }
 
-.glyphicon-list-alt:before {
+.glyphicon-list-alt:before 
+{
     content: "\e032"
 }
 
-.glyphicon-lock:before {
+.glyphicon-lock:before 
+{
     content: "\e033"
 }
 
-.glyphicon-flag:before {
+.glyphicon-flag:before 
+{
     content: "\e034"
 }
 
-.glyphicon-headphones:before {
+.glyphicon-headphones:before 
+{
     content: "\e035"
 }
 
-.glyphicon-volume-off:before {
+.glyphicon-volume-off:before 
+{
     content: "\e036"
 }
 
-.glyphicon-volume-down:before {
+.glyphicon-volume-down:before 
+{
     content: "\e037"
 }
 
-.glyphicon-volume-up:before {
+.glyphicon-volume-up:before 
+{
     content: "\e038"
 }
 
-.glyphicon-qrcode:before {
+.glyphicon-qrcode:before 
+{
     content: "\e039"
 }
 
-.glyphicon-barcode:before {
+.glyphicon-barcode:before 
+{
     content: "\e040"
 }
 
-.glyphicon-tag:before {
+.glyphicon-tag:before 
+{
     content: "\e041"
 }
 
-.glyphicon-tags:before {
+.glyphicon-tags:before 
+{
     content: "\e042"
 }
 
-.glyphicon-book:before {
+.glyphicon-book:before 
+{
     content: "\e043"
 }
 
-.glyphicon-bookmark:before {
+.glyphicon-bookmark:before 
+{
     content: "\e044"
 }
 
-.glyphicon-print:before {
+.glyphicon-print:before 
+{
     content: "\e045"
 }
 
-.glyphicon-camera:before {
+.glyphicon-camera:before 
+{
     content: "\e046"
 }
 
-.glyphicon-font:before {
+.glyphicon-font:before 
+{
     content: "\e047"
 }
 
-.glyphicon-bold:before {
+.glyphicon-bold:before 
+{
     content: "\e048"
 }
 
-.glyphicon-italic:before {
+.glyphicon-italic:before 
+{
     content: "\e049"
 }
 
-.glyphicon-text-height:before {
+.glyphicon-text-height:before 
+{
     content: "\e050"
 }
 
-.glyphicon-text-width:before {
+.glyphicon-text-width:before 
+{
     content: "\e051"
 }
 
-.glyphicon-align-left:before {
+.glyphicon-align-left:before 
+{
     content: "\e052"
 }
 
-.glyphicon-align-center:before {
+.glyphicon-align-center:before 
+{
     content: "\e053"
 }
 
-.glyphicon-align-right:before {
+.glyphicon-align-right:before 
+{
     content: "\e054"
 }
 
-.glyphicon-align-justify:before {
+.glyphicon-align-justify:before 
+{
     content: "\e055"
 }
 
-.glyphicon-list:before {
+.glyphicon-list:before 
+{
     content: "\e056"
 }
 
-.glyphicon-indent-left:before {
+.glyphicon-indent-left:before 
+{
     content: "\e057"
 }
 
-.glyphicon-indent-right:before {
+.glyphicon-indent-right:before 
+{
     content: "\e058"
 }
 
-.glyphicon-facetime-video:before {
+.glyphicon-facetime-video:before 
+{
     content: "\e059"
 }
 
-.glyphicon-picture:before {
+.glyphicon-picture:before 
+{
     content: "\e060"
 }
 
-.glyphicon-map-marker:before {
+.glyphicon-map-marker:before 
+{
     content: "\e062"
 }
 
-.glyphicon-adjust:before {
+.glyphicon-adjust:before 
+{
     content: "\e063"
 }
 
-.glyphicon-tint:before {
+.glyphicon-tint:before 
+{
     content: "\e064"
 }
 
-.glyphicon-edit:before {
+.glyphicon-edit:before 
+{
     content: "\e065"
 }
 
-.glyphicon-share:before {
+.glyphicon-share:before 
+{
     content: "\e066"
 }
 
-.glyphicon-check:before {
+.glyphicon-check:before 
+{
     content: "\e067"
 }
 
-.glyphicon-move:before {
+.glyphicon-move:before 
+{
     content: "\e068"
 }
 
-.glyphicon-step-backward:before {
+.glyphicon-step-backward:before 
+{
     content: "\e069"
 }
 
-.glyphicon-fast-backward:before {
+.glyphicon-fast-backward:before 
+{
     content: "\e070"
 }
 
-.glyphicon-backward:before {
+.glyphicon-backward:before 
+{
     content: "\e071"
 }
 
-.glyphicon-play:before {
+.glyphicon-play:before 
+{
     content: "\e072"
 }
 
-.glyphicon-pause:before {
+.glyphicon-pause:before 
+{
     content: "\e073"
 }
 
-.glyphicon-stop:before {
+.glyphicon-stop:before 
+{
     content: "\e074"
 }
 
-.glyphicon-forward:before {
+.glyphicon-forward:before 
+{
     content: "\e075"
 }
 
-.glyphicon-fast-forward:before {
+.glyphicon-fast-forward:before 
+{
     content: "\e076"
 }
 
-.glyphicon-step-forward:before {
+.glyphicon-step-forward:before 
+{
     content: "\e077"
 }
 
-.glyphicon-eject:before {
+.glyphicon-eject:before 
+{
     content: "\e078"
 }
 
-.glyphicon-chevron-left:before {
+.glyphicon-chevron-left:before 
+{
     content: "\e079"
 }
 
-.glyphicon-chevron-right:before {
+.glyphicon-chevron-right:before 
+{
     content: "\e080"
 }
 
-.glyphicon-plus-sign:before {
+.glyphicon-plus-sign:before 
+{
     content: "\e081"
 }
 
-.glyphicon-minus-sign:before {
+.glyphicon-minus-sign:before 
+{
     content: "\e082"
 }
 
-.glyphicon-remove-sign:before {
+.glyphicon-remove-sign:before 
+{
     content: "\e083"
 }
 
-.glyphicon-ok-sign:before {
+.glyphicon-ok-sign:before 
+{
     content: "\e084"
 }
 
-.glyphicon-question-sign:before {
+.glyphicon-question-sign:before 
+{
     content: "\e085"
 }
 
-.glyphicon-info-sign:before {
+.glyphicon-info-sign:before 
+{
     content: "\e086"
 }
 
-.glyphicon-screenshot:before {
+.glyphicon-screenshot:before 
+{
     content: "\e087"
 }
 
-.glyphicon-remove-circle:before {
+.glyphicon-remove-circle:before 
+{
     content: "\e088"
 }
 
-.glyphicon-ok-circle:before {
+.glyphicon-ok-circle:before 
+{
     content: "\e089"
 }
 
-.glyphicon-ban-circle:before {
+.glyphicon-ban-circle:before 
+{
     content: "\e090"
 }
 
-.glyphicon-arrow-left:before {
+.glyphicon-arrow-left:before 
+{
     content: "\e091"
 }
 
-.glyphicon-arrow-right:before {
+.glyphicon-arrow-right:before 
+{
     content: "\e092"
 }
 
-.glyphicon-arrow-up:before {
+.glyphicon-arrow-up:before 
+{
     content: "\e093"
 }
 
-.glyphicon-arrow-down:before {
+.glyphicon-arrow-down:before 
+{
     content: "\e094"
 }
 
-.glyphicon-share-alt:before {
+.glyphicon-share-alt:before 
+{
     content: "\e095"
 }
 
-.glyphicon-resize-full:before {
+.glyphicon-resize-full:before
+{
     content: "\e096"
 }
 
-.glyphicon-resize-small:before {
+.glyphicon-resize-small:before 
+{
     content: "\e097"
 }
 
-.glyphicon-exclamation-sign:before {
+.glyphicon-exclamation-sign:before 
+{
     content: "\e101"
 }
 
-.glyphicon-gift:before {
+.glyphicon-gift:before 
+{
     content: "\e102"
 }
 
-.glyphicon-leaf:before {
+.glyphicon-leaf:before 
+{
     content: "\e103"
 }
 
-.glyphicon-fire:before {
+.glyphicon-fire:before 
+{
     content: "\e104"
 }
 
-.glyphicon-eye-open:before {
+.glyphicon-eye-open:before 
+{
     content: "\e105"
 }
 
-.glyphicon-eye-close:before {
+.glyphicon-eye-close:before 
+{
     content: "\e106"
 }
 
-.glyphicon-warning-sign:before {
+.glyphicon-warning-sign:before 
+{
     content: "\e107"
 }
 
-.glyphicon-plane:before {
+.glyphicon-plane:before 
+{
     content: "\e108"
 }
 
-.glyphicon-calendar:before {
+.glyphicon-calendar:before 
+{
     content: "\e109"
 }
 
-.glyphicon-random:before {
+.glyphicon-random:before 
+{
     content: "\e110"
 }
 
-.glyphicon-comment:before {
+.glyphicon-comment:before 
+{
     content: "\e111"
 }
 
-.glyphicon-magnet:before {
+.glyphicon-magnet:before 
+{
     content: "\e112"
 }
 
-.glyphicon-chevron-up:before {
+.glyphicon-chevron-up:before 
+{
     content: "\e113"
 }
 
-.glyphicon-chevron-down:before {
+.glyphicon-chevron-down:before 
+{
     content: "\e114"
 }
 
-.glyphicon-retweet:before {
+.glyphicon-retweet:before 
+{
     content: "\e115"
 }
 
-.glyphicon-shopping-cart:before {
+.glyphicon-shopping-cart:before 
+{
     content: "\e116"
 }
 
-.glyphicon-folder-close:before {
+.glyphicon-folder-close:before 
+{
     content: "\e117"
 }
 
-.glyphicon-folder-open:before {
+.glyphicon-folder-open:before 
+{
     content: "\e118"
 }
 
-.glyphicon-resize-vertical:before {
+.glyphicon-resize-vertical:before 
+{
     content: "\e119"
 }
 
-.glyphicon-resize-horizontal:before {
+.glyphicon-resize-horizontal:before 
+{
     content: "\e120"
 }
 
-.glyphicon-hdd:before {
+.glyphicon-hdd:before 
+{
     content: "\e121"
 }
 
-.glyphicon-bullhorn:before {
+.glyphicon-bullhorn:before 
+{
     content: "\e122"
 }
 
-.glyphicon-bell:before {
+.glyphicon-bell:before 
+{
     content: "\e123"
 }
 
-.glyphicon-certificate:before {
+.glyphicon-certificate:before 
+{
     content: "\e124"
 }
 
-.glyphicon-thumbs-up:before {
+.glyphicon-thumbs-up:before 
+{
     content: "\e125"
 }
 
-.glyphicon-thumbs-down:before {
+.glyphicon-thumbs-down:before 
+{
     content: "\e126"
 }
 
-.glyphicon-hand-right:before {
+.glyphicon-hand-right:before 
+{
     content: "\e127"
 }
 
-.glyphicon-hand-left:before {
+.glyphicon-hand-left:before 
+{
     content: "\e128"
 }
 
-.glyphicon-hand-up:before {
+.glyphicon-hand-up:before 
+{
     content: "\e129"
 }
 
-.glyphicon-hand-down:before {
+.glyphicon-hand-down:before 
+{
     content: "\e130"
 }
 
-.glyphicon-circle-arrow-right:before {
+.glyphicon-circle-arrow-right:before 
+{
     content: "\e131"
 }
 
-.glyphicon-circle-arrow-left:before {
+.glyphicon-circle-arrow-left:before 
+{
     content: "\e132"
 }
 
-.glyphicon-circle-arrow-up:before {
+.glyphicon-circle-arrow-up:before 
+{
     content: "\e133"
 }
 
-.glyphicon-circle-arrow-down:before {
+.glyphicon-circle-arrow-down:before 
+{
     content: "\e134"
 }
 
-.glyphicon-globe:before {
+.glyphicon-globe:before 
+{
     content: "\e135"
 }
 
-.glyphicon-wrench:before {
+.glyphicon-wrench:before 
+{
     content: "\e136"
 }
 
-.glyphicon-tasks:before {
+.glyphicon-tasks:before 
+{
     content: "\e137"
 }
 
-.glyphicon-filter:before {
+.glyphicon-filter:before 
+{
     content: "\e138"
 }
 
-.glyphicon-briefcase:before {
+.glyphicon-briefcase:before 
+{
     content: "\e139"
 }
 
-.glyphicon-fullscreen:before {
+.glyphicon-fullscreen:before 
+{
     content: "\e140"
 }
 
-.glyphicon-dashboard:before {
+.glyphicon-dashboard:before 
+{
     content: "\e141"
 }
 
-.glyphicon-paperclip:before {
+.glyphicon-paperclip:before 
+{
     content: "\e142"
 }
 
-.glyphicon-heart-empty:before {
+.glyphicon-heart-empty:before 
+{
     content: "\e143"
 }
 
-.glyphicon-link:before {
+.glyphicon-link:before 
+{
     content: "\e144"
 }
 
-.glyphicon-phone:before {
+.glyphicon-phone:before 
+{
     content: "\e145"
 }
 
-.glyphicon-pushpin:before {
+.glyphicon-pushpin:before 
+{
     content: "\e146"
 }
 
-.glyphicon-usd:before {
+.glyphicon-usd:before 
+{
     content: "\e148"
 }
 
-.glyphicon-gbp:before {
+.glyphicon-gbp:before 
+{
     content: "\e149"
 }
 
@@ -1428,6 +1638,8 @@ figure {
 
 img {
     vertical-align: middle
+    height: auto;
+    withd: auto;
 }
 
 .carousel-inner>.item>a>img,
