@@ -1112,6 +1112,7 @@ h4
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+        max-width: 100%;
     }
     .navbar.row 
     {
@@ -1269,10 +1270,6 @@ h4
         height: 70px;
         width: 70px;
     }
-    .icon-lg
-    {
-        font-size: 60px important;
-    }
     .mg-lg
     {
         font-size: 20px;
@@ -1293,6 +1290,31 @@ h4
     h3
     {
         font-size: 15px;
+    }
+    .center-block
+    {
+        height: 80px;
+        width: 80px;
+    }
+    .hero-bloc-text
+    {
+        font-size: 40px;
+    }
+    .h1
+    {
+        font-size: 40px;
+    }
+    .form-text
+    {
+        font-size: 25px;
+    }
+    .contact
+    {
+        font-size: 25px;
+    }
+    .bloc12-footer
+    {
+        font-size: 20px;
     }
 }
 
