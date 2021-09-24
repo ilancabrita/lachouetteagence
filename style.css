@@ -1318,12 +1318,63 @@ h4
     }
 }
 
-@media (max-width: 400px) 
+@media (max-width: 425px) 
 {
     .bloc 
     {
         padding-left: 0;
         padding-right: 0;
+    }
+    .navbar
+    {
+        height: 50px;
+    }
+    .hero-bloc-text
+    {
+        font-size: 20px;
+    }
+    .cta-hero
+    {
+        font-size: 15px;
+    }
+    .center-block
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .bloc2-image1
+    {
+        height: 50px;
+        width: 85%;
+    }
+    .bloc2-image2
+    {
+        height: 120px;
+    }
+    h2
+    {
+        font-size: 15px;
+    }
+    p
+    {
+        font-size: 12px;
+    }
+    .bloc4-image1
+    {
+        height: 85px;
+    }
+    .bloc4-image2
+    {
+        height: 270px;
+        width: 100%;
+    }
+    .mg-lg
+    {
+        font-size: 15px;
+    }
+    .tight-width-whitespace
+    {
+        flex-direction: column;
     }
 }
 
