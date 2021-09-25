@@ -1376,6 +1376,26 @@ h4
     {
         flex-direction: column;
     }
+    .form-text
+    {
+        font-size: 14px;
+    }
+    .form-control
+    {
+        font-size: 15px;
+    }
+    .contact
+    {
+        font-size: 15px;
+    }
+    .bloc12-footer
+    {
+        font-size: 10px;
+    }
+    .page2
+    {
+        height: 235px;
+    }
 }
 
 @media (max-width: 768px) 
@@ -1383,5 +1403,17 @@ h4
     .bloc-mob-center-text 
     {
         text-align: center;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .page2
+    {
+        height: 260px;
+    }
+    .form-group
+    {
+        font-size: 15px;
     }
 }
