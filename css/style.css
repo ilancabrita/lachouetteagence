@@ -1048,6 +1048,35 @@ a
     padding-right: 110px;
 }
 
+.text-center
+{
+    text-align: center;
+}
+
+.colunm
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-sm-4
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-responsive
+{
+    width: auto;
+}
+
 @media (max-width: 1440px)
 {
     .mg-md2
@@ -1274,10 +1303,6 @@ a
     {
         display: none;
     }
-    .voffset 
-    {
-        margin-top: 5px;
-    }
     .voffset-md 
     {
         margin-top: 20px;
@@ -1317,6 +1342,7 @@ a
     .cta-hero
     {
         font-size: 25px;
+        margin-left: 0%;
     }
     .bloc1-image1
     {
@@ -1369,6 +1395,15 @@ a
     {
         font-size: 20px;
     }
+    .row2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .col-sm-6
+    
 }
 
 @media (max-width: 425px) 
