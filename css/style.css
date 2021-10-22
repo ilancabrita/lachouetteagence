@@ -1403,7 +1403,10 @@ a
         margin-left: 10%;
     }
     .col-sm-6
-    
+    {
+        width: 75%;
+        margin-left: 20%;
+    }
 }
 
 @media (max-width: 425px) 
@@ -1487,6 +1490,15 @@ a
     .page2
     {
         height: 235px;
+    }
+    .col-sm-6
+    {
+        width: 70%;
+        margin-left: 20%;
+    }
+    .img-responsive
+    {
+        width: 100%;
     }
 }
 
