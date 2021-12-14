@@ -1097,6 +1097,24 @@ a
     {
         padding: 0px;
     }
+
+    .col-sm-6
+    {
+        width: 85%;
+        margin: 0px;
+    }
+
+    .bloc
+    {
+        padding: 0px;
+    }
+
+    .row2
+    {
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+    }
 }
 
 @media (max-width: 1024px) 
@@ -1414,7 +1432,6 @@ a
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 10%;
     }
     .col-sm-6
     {
