@@ -1015,7 +1015,7 @@ a
 
 .btn-contact
 {
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .log-acc
@@ -1104,9 +1104,9 @@ a
         margin: 0px;
     }
 
-    .bloc
+    .bloc2
     {
-        padding: 0px;
+        margin-left: 10%;
     }
 
     .row2
@@ -1124,6 +1124,7 @@ a
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -1131,6 +1132,18 @@ a
     {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .colonm
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col-sm-4
+    {
+        width: 70%;
+        margin-left: 15%;
     }
 }
 
