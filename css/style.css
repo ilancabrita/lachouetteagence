@@ -1446,10 +1446,21 @@ a
         flex-direction: column;
         justify-content: center;
     }
+
     .col-sm-6
     {
         width: 75%;
-        margin-left: 20%;
+        margin-left: 10%;
+    }
+
+    .bloc-sm
+    {
+        padding: 0px;
+    }
+
+    .bloc2
+    {
+        padding-left: 30px;
     }
 }
 
