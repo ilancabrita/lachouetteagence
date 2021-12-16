@@ -1091,6 +1091,21 @@ a
     justify-content: center;
 }
 
+.bloc2
+{
+    padding-left: 10%;
+}
+
+.col-xs-12
+{
+    width: 35%;
+}
+
+.bloc3
+{
+    width: 40%;
+}
+
 @media (max-width: 1440px)
 {
     .mg-md2
@@ -1114,6 +1129,17 @@ a
         flex-direction: column;
         justify-content: center;
         display: block;
+    }
+
+    .bloc3
+    {
+        width: 50%;
+    }
+
+    .bloc2
+    {
+        padding-left: 0px;
+        margin-bottom: 10px;
     }
 }
 
