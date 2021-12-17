@@ -1697,6 +1697,11 @@ a
     {
         text-align: center;
     }
+
+    .bloc0
+    {
+        height: 200px;
+    }
 }
 
 @media (max-width: 375px)
@@ -1727,7 +1732,7 @@ a
         width: 75%;
         height: 34px;
     }
-    
+
     .black-background
     {
         padding: 20px 20px 20px 20px;
